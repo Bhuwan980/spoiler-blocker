@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Spoiler Blocker",
+	"description": "Extension that blocks all the spoilers of moveis, series, anime, manga and much more.",
+	"version": "0.01",
+	"author": "Bhuwan Bahadur Neupane",
+
+	"browser_action":{
+	"default_icon": "images/one.png",
+	"default_popup": "html/index.html",
+	"default_title": "Spoiler Blocker",
+	"chrome_url_overrides" : {  "newtab": "html/newtab.htm"},
+	"permissions": ["activeTab"]
+}
+}
